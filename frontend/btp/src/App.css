@@ -1,0 +1,99 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 ;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+label{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 6px 12px;
+  text-align: center;
+}
+input[type="file"] {
+  display: inline-block;
+  width: 10%;
+  background-color: lightslategray;
+  border: #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 3px; 
+  align-content: end;
+}
+input:hover {
+  background-color: gray;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+select {
+  width: 200px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 1px solid #ccc;
+  align-content: center;
+  padding: 10px;
+  margin: 3px;
+}
+select:hover {
+  background-color: white;
+}
+button {
+  background-color: lightcoral;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+pre {
+  display: none;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+  text-align: left;
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    align-items: center;
+  }
+}
